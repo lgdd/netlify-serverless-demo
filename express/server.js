@@ -12,8 +12,7 @@ app.use('/', router);
 router.get('/', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.write(`{
-    "delaiMoyenSejourGlobal": "13J",
-    "nbrBateauxParJour": "648",
+    "delaiMoyenSejourGlobal": "12J",
     "nbrConteneurs": "120000",
     "nbrConteneursInspectes": "349"
   }`);
